@@ -1,10 +1,13 @@
-ServiceNow Ticket Automation Lab 🚀
+#WATCH THE VIDEO HERE:
+https://www.loom.com/share/31d9f34769f5406492a5ca8adc18d1b9
+
+#ServiceNow Ticket Automation Lab 🚀
 This repository contains the resources for my video tutorial on automating ServiceNow incident creation using Windows PowerShell. This lab demonstrates how to leverage the ServiceNow REST API to improve efficiency in IT Service Management (ITSM).
 
-📺 Project Overview
+#📺 Project Overview
 The goal of this project is to automate the manual process of logging common IT issues (like account lockouts) by sending data directly from a local workstation to a ServiceNow instance.
 
-🛠️ The PowerShell Script
+#🛠️ The PowerShell Script
 The script below connects to a ServiceNow Personal Developer Instance (PDI) and creates a High-Impact, High-Urgency ticket.
 
 PowerShell
