@@ -13,6 +13,7 @@ The script below connects to a ServiceNow Personal Developer Instance (PDI) and 
 
 PowerShell
 
+```
 **Define the API endpoint for the Incident Table**
 $uri = "https://dev285513.service-now.com/api/now/table/incident"
 
@@ -37,7 +38,7 @@ $Response = Invoke-RestMethod -Uri $uri `
 
 **# Display the result (The Task Effective Number)**
 $Response.result | Format-List -Property *
-
+```
 
 # 📝 Lab Steps
 **1. Write the Script**
@@ -61,4 +62,5 @@ Confirm that the Short Description and Category match what was sent in the scrip
 **5. Final Ticket Adjustments**
 
 Review the ticket within the ServiceNow UI. In this stage, you can manually assign the ticket to a specific group, add work notes, or resolve the incident once the user is unlocked.
+
 
